@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#031424"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#031424"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="47dp">
+
+            <ImageView
+                android:layout_width="9dp"
+                android:layout_height="16dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="18dp"
+                android:src="@mipmap/back_white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="故障信息查询"
+                android:textColor="#FFFFFF"
+                android:textSize="16dp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="649dp"
+              android:layout_gravity="center"
+              android:background="@mipmap/image_fault_message_check"
+              android:orientation="vertical">
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="@dimen/dp_48"
+                  android:orientation="horizontal">
+                  <ImageView
+                      android:layout_marginLeft="@dimen/dp_20"
+                      android:layout_width="@dimen/dp_21"
+                      android:layout_height="@dimen/dp_22"
+                      android:src="@mipmap/icon_close"
+                      />
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="@dimen/dp_5"
+                      android:textSize="@dimen/sp_14"
+                      android:text="闭环状态"
+                      android:textColor="#ffffff"
+                      />
+                  <ImageView
+                      android:layout_marginLeft="@dimen/dp_16"
+                      android:layout_marginTop="@dimen/dp_7"
+                      android:layout_width="@dimen/dp_12"
+                      android:layout_height="@dimen/dp_7"
+                      android:src="@mipmap/icon_bottom"
+                      />
+
+              </LinearLayout>
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="@dimen/dp_25"
+                  android:orientation="vertical">
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal">
+                      <ImageView
+                          android:layout_width="@dimen/dp_21"
+                          android:layout_height="@dimen/dp_22"
+                          android:layout_marginLeft="@dimen/dp_20"
+                          android:src="@mipmap/image_time"
+                          />
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:textSize="@dimen/sp_14"
+                          android:textColor="#ffffff"
+                          android:text="时间"
+
+                          />
+
+                  </LinearLayout>
+                  <Button
+                      android:layout_width="@dimen/dp_109"
+                      android:layout_height="@dimen/dp_31"
+                      android:text="选择时间"
+                      android:textColor="#ffffff"
+                      android:background="@mipmap/image_time_back"
+                      android:layout_marginLeft="@dimen/dp_46"
+                      android:layout_marginTop="@dimen/dp_14"
+                      />
+
+              </LinearLayout>
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:layout_marginTop="@dimen/dp_26"
+
+                  >
+                  <ImageView
+                      android:layout_width="@dimen/dp_21"
+                      android:layout_height="@dimen/dp_22"
+                      android:src="@mipmap/image_equipment"
+                      android:layout_marginLeft="@dimen/dp_20"
+                      />
+                  <TextView
+
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="设备"
+                      android:textColor="#ffffff"
+                      android:layout_marginLeft="@dimen/dp_5"
+                      android:textSize="@dimen/sp_14"
+                      />
+                  <ImageView
+                      android:layout_marginTop="@dimen/dp_8"
+                      android:layout_marginLeft="@dimen/dp_16"
+                      android:layout_width="@dimen/dp_12"
+                      android:layout_height="@dimen/dp_7"
+                      android:src="@mipmap/icon_bottom"
+                      />
+
+              </LinearLayout>
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:layout_marginTop="@dimen/dp_25"
+                  >
+                  <ImageView
+                      android:layout_width="@dimen/dp_21"
+                      android:layout_height="@dimen/dp_22"
+                      android:layout_marginLeft="@dimen/dp_20"
+                      android:src="@mipmap/image_stattion"
+                      />
+
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textColor="#ffffff"
+                      android:textSize="@dimen/sp_14"
+                      android:text="站"
+                      android:layout_marginLeft="@dimen/dp_5"
+                      />
+                  <ImageView
+                      android:layout_marginTop="@dimen/dp_8"
+                      android:layout_marginLeft="@dimen/dp_16"
+                      android:layout_width="@dimen/dp_12"
+                      android:layout_height="@dimen/dp_7"
+                      android:src="@mipmap/icon_bottom"
+                      />
+              </LinearLayout>
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:layout_marginTop="@dimen/dp_25"
+                  >
+                  <ImageView
+                      android:layout_width="@dimen/dp_21"
+                      android:layout_height="@dimen/dp_22"
+                      android:layout_marginLeft="@dimen/dp_20"
+                      android:src="@mipmap/image_task_serial"
+                      />
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textColor="#ffffff"
+                      android:textSize="@dimen/sp_14"
+                      android:text="任务编号"
+                      android:layout_marginLeft="@dimen/dp_5"
+                      />
+                  <ImageView
+                      android:layout_marginTop="@dimen/dp_8"
+                      android:layout_marginLeft="@dimen/dp_16"
+                      android:layout_width="@dimen/dp_12"
+                      android:layout_height="@dimen/dp_7"
+                      android:src="@mipmap/icon_bottom"
+                      />
+              </LinearLayout>
+              <EditText
+                  android:layout_marginTop="@dimen/dp_14"
+                  android:layout_width="@dimen/dp_243"
+                  android:layout_height="@dimen/dp_31"
+                  android:text="请输入任务编号"
+                  android:textSize="@dimen/sp_12"
+                  android:paddingLeft="@dimen/dp_16"
+                  android:textColor="#ffffff"
+                  android:layout_gravity="center"
+                  android:background="@mipmap/image_et_task_number_back"
+                  />
+
+
+          </LinearLayout>
+
+            <Button
+                android:text="提交"
+                android:textColor="#ffffff"
+                android:textSize="13sp"
+                android:layout_marginTop="5dp"
+                android:layout_width="@dimen/dp_324"
+                android:layout_height="@dimen/dp_38"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/dp_11"
+                android:background="@mipmap/image_btn_fault_message_back"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

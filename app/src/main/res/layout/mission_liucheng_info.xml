@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- 任务详情 流程信息 -->
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- 列表一:item_mission_liucheng_one.xml
+    列表二:item_mission_liucheng_two.xml
+    列表三:item_mission_liucheng_three.xml
+    列表四:item_mission_liucheng_four.xml
+    -->
+
+</LinearLayout>

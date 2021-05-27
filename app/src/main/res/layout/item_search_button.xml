@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#031424"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <ImageView
+            android:id="@+id/clock"
+            android:src="@mipmap/clock"
+            android:layout_centerInParent="true"
+            android:layout_alignParentLeft="true"
+            android:layout_width="14dp"
+            android:layout_height="14dp"/>
+
+        <TextView
+            android:text="站信息查询"
+            android:textSize="14sp"
+            android:textColor="#D0D0D0"
+            android:layout_toRightOf="@id/clock"
+            android:layout_marginLeft="14dp"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:src="@mipmap/close_two"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_width="9dp"
+            android:layout_height="9dp"/>
+
+    </RelativeLayout>
+
+    <View
+        android:background="#3F6D7A"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+</LinearLayout>

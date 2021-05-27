@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="textBlack">#2B2B2B</color>
+    <color name="textGray">#9D9D9D</color>
+    <color name="hint_text">#CCCCCC</color>
+    <color name="ed_back">#F5F5F5</color>
+    <color name="textColorPrimary">#4DCAD4</color>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="count">#f0efef</color>
+    <color name="toolBarColor">#26EFF3</color>
+    <color name="white">#FFFFFF</color>
+    <color name="divider">#BFBFBF</color>
+    <color name="goods_title_bck">#4D000000</color>
+    <color name="color_ee3214">#EE3214</color>
+    <color name="black">#030000</color>
+    <color name="back">#f3f1f1</color>
+    <color name="recyclerItemTouchBackground">#D1D1D1</color>
+    <color name="member_number">#D81E06</color>
+    <color name="color_f6">#f6f6f6</color>
+    <color name="text_black">#ff4e4e4e</color>
+    <color name="progressBarBack">#ffe4e4e4</color>
+    <color name="background">#fff2f2f2</color>
+    <color name="finish">#ff2eba03</color>
+    <color name="no_finish">#fff00000</color>
+    <color name="text_333333">#ff333333</color>
+    <color name="text_gray">#ff999999</color>
+    <color name="color_0e0804">#0E0804</color>
+    <color name="color_f6a25a">#F6A25A</color>
+</resources>

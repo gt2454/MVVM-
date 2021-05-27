@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#031424"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/vp"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"/>
+
+    android:drawableTop="@drawable/radiobutton_we_show"
+
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:gravity="center"
+            android:id="@+id/rb1"
+            android:drawableTop="@drawable/radiobutton_task_show"
+            android:button="@null"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="任务"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:gravity="center"
+            android:id="@+id/rb2"
+            android:drawableTop="@drawable/radiobutton_system_show"
+            android:button="@null"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="免费发布"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:gravity="center"
+            android:id="@+id/rb3"
+            android:drawableTop="@drawable/radiobutton_check_show"
+            android:button="@null"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="免费发布"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:gravity="center"
+            android:id="@+id/rb4"
+            android:drawableTop="@drawable/radiobutton_message_show"
+            android:button="@null"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="任务"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:gravity="center"
+            android:id="@+id/rb5"
+            android:drawableTop="@drawable/radiobutton_we_show"
+            android:button="@null"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="任务"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+
+
+
+</LinearLayout>
